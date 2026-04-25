@@ -8,9 +8,9 @@ This project implements an **end-to-end Retrieval-Augmented Generation (RAG) sys
 
 It is specifically designed for **regulated environments** where documents must be:
 
--Interpreted accurately
-Structured intelligently
-Fully traceable for compliance
+- Interpreted accurately
+- Structured intelligently
+- Fully traceable for compliance
 🖼️ System Architecture
 
 💼 Business Impact
