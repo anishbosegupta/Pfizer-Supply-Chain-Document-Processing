@@ -11,21 +11,21 @@ It is specifically designed for **regulated environments** where documents must 
 - Interpreted accurately
 - Structured intelligently
 - Fully traceable for compliance
-🖼️ System Architecture
+## 🖼️ System Architecture
 
-💼 Business Impact
-⏱️ Reduces manual review time for large regulatory documents
-🎯 Improves accuracy of information retrieval
-📊 Ensures audit-ready traceability (document + page references)
-🔍 Automatically handles multi-document PDFs (“blob” files)
-🔒 Enables local deployment (data privacy friendly)
-🧠 Key Features
-📄 LLM-based document classification & boundary detection
-🎯 Query routing to relevant document types
-🔍 Semantic search with vector embeddings (FAISS)
-🧾 Source attribution for compliance
-💬 Interactive Q&A interface (Gradio UI)
-🏗️ How It Works
+## 💼 Business Impact
+- ⏱️ Reduces manual review time for large regulatory documents
+- 🎯 Improves accuracy of information retrieval
+- 📊 Ensures audit-ready traceability (document + page references)
+- 🔍 Automatically handles multi-document PDFs (“blob” files)
+- 🔒 Enables local deployment (data privacy friendly)
+## 🧠 Key Features
+- 📄 LLM-based document classification & boundary detection
+- 🎯 Query routing to relevant document types
+- 🔍 Semantic search with vector embeddings (FAISS)
+- 🧾 Source attribution for compliance
+- 💬 Interactive Q&A interface (Gradio UI)
+## 🏗️ How It Works
 1. Upload PDF (multi-document “blob”)
 2. Extract text (PyMuPDF + OCR fallback)
 3. Classify document types (LLM)
@@ -36,24 +36,24 @@ It is specifically designed for **regulated environments** where documents must 
 8. Route user query to relevant document type
 9. Retrieve top-k chunks
 10. Generate answer with source attribution
-📓 Notebook Implementation
+## 📓 Notebook Implementation
 
 👉 Full implementation available in:
 Task_Build_the_Full_RAG_UI.ipynb
 
-What the notebook demonstrates:
-End-to-end RAG pipeline construction
-LLM integration (Mistral via LlamaCPP)
-Chunking + embedding pipeline
-Vector search with FAISS
-Query routing logic
-Gradio UI for interaction
+## What the notebook demonstrates:
+- End-to-end RAG pipeline construction
+- LLM integration (Mistral via LlamaCPP)
+- Chunking + embedding pipeline
+- Vector search with FAISS
+- Query routing logic
+- Gradio UI for interaction
 
-This is not just a prototype—it’s a working system pipeline.
+This is not just a prototype—it’s a **working system pipeline**.
 
-⚙️ Technical Breakdown
-🔹 LLM (Local Deployment)
-Mistral-7B-Instruct (GGUF via LlamaCPP)
+## ⚙️ Technical Breakdown
+  **🔹 LLM (Local Deployment)**
+- Mistral-7B-Instruct (GGUF via LlamaCPP)
 Used for:
 Document classification
 Boundary detection
