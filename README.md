@@ -1,8 +1,8 @@
 # Pfizer-Supply-Chain-Document-Processing
 Pfizer Supply Chain AI-Powered Pharmaceutical Document Processing   
-🧠 ## Pharmaceutical Document Q&A System
+## 🧠  Pharmaceutical Document Q&A System
 **Intelligent RAG Pipeline for Compliance-Ready Document Analysis**
-🚀 ## Project Overview
+## 🚀  Project Overview
 
 This project implements an end-to-end Retrieval-Augmented Generation (RAG) system that enables users to ask natural language questions over complex pharmaceutical PDFs and receive accurate, source-attributed answers.
 
