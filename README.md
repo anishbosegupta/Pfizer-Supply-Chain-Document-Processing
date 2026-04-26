@@ -1,5 +1,6 @@
-# Pfizer-Supply-Chain-Document-Processing
-Pfizer Supply Chain AI-Powered Pharmaceutical Document Processing   
+# Pfizer Supply Chain AI-Powered Pharmaceutical Document Processing
+<img width="1590" height="870" alt="image" src="https://github.com/user-attachments/assets/2c644500-2d19-4285-9fea-b40e3d1bcd4a" />
+
 ## 🧠  Pharmaceutical Document Q&A System
 **Intelligent RAG Pipeline for Compliance-Ready Document Analysis**
 ## 🚀  Project Overview
