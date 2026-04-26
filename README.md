@@ -40,7 +40,7 @@ It is specifically designed for **regulated environments** where documents must 
 ## 📓 Notebook Implementation
 
 👉 Full implementation available in:
-Task_Build_the_Full_RAG_UI.ipynb
+task_build_the_full_rag_ui.ipynb
 
 ## What the notebook demonstrates:
 - End-to-end RAG pipeline construction
