@@ -53,74 +53,74 @@ This is not just a prototype—it’s a **working system pipeline**.
 
 ## ⚙️ Technical Breakdown
   **🔹 LLM (Local Deployment)**
-- Mistral-7B-Instruct (GGUF via LlamaCPP)
-Used for:
-Document classification
-Boundary detection
-Query routing
-Answer generation
-🔹 Retrieval-Augmented Generation (RAG)
-Combines:
-Semantic retrieval (FAISS)
-LLM reasoning
-Improves accuracy + explainability
-🔹 Query Routing (Key Differentiator)
-Routes queries to specific document types
-Reduces noise and improves precision
-Adds scalability vs traditional RAG systems
-🔹 Document Processing
-PyMuPDF (fitz) → text extraction
-pytesseract → OCR fallback
-🔹 Embeddings & Search
-Sentence-Transformers (MiniLM)
-FAISS vector database
-🔹 Metadata & Traceability
+- **Mistral-7B-Instruct (GGUF via LlamaCPP)**
+- Used for:
+   - Document classification
+   - Boundary detection
+   - Query routing
+   - Answer generation
+**🔹 Retrieval-Augmented Generation (RAG)**
+- Combines:
+  - Semantic retrieval (FAISS)
+  - LLM reasoning
+- Improves accuracy + explainability
+**🔹 Query Routing (Key Differentiator)**
+- Routes queries to specific document types
+- Reduces noise and improves precision
+- Adds scalability vs traditional RAG systems
+**🔹 Document Processing**
+- PyMuPDF (fitz) → text extraction
+- pytesseract → OCR fallback
+**🔹 Embeddings & Search**
+- Sentence-Transformers (MiniLM)
+- FAISS vector database
+**🔹 Metadata & Traceability**
 
 Each chunk stores:
 
-Document type
-Page number
-Source reference
+- Document type
+- Page number
+- Source reference
 
-✅ Enables compliance-ready outputs
+✅ Enables **compliance-ready outputs**
 
-🖥️ Demo (Gradio UI)
+## 🖥️ **Demo (Gradio UI)**
 
 The system includes an interactive UI where users can:
 
-Upload pharmaceutical PDFs
-Process documents
-Ask natural language questions
-Receive traceable answers
-🛠️ Tech Stack
-Python
-LlamaIndex
-FAISS
-Sentence-Transformers
-Mistral-7B (LlamaCPP)
-PyMuPDF + pytesseract
-Gradio
-📌 Why This Project Stands Out
+- Upload pharmaceutical PDFs
+- Process documents
+- Ask natural language questions
+- Receive traceable answers
+## 🛠️ Tech Stack
+- **Python**
+- **LlamaIndex**
+- **FAISS**
+- **Sentence-Transformers**
+- **Mistral-7B (LlamaCPP)**
+- **PyMuPDF + pytesseract**
+- **Gradio**
+
+## 📌 Why This Project Stands Out
 
 This is not a basic RAG implementation. It introduces:
 
-✅ Multi-document understanding within a single PDF
-✅ LLM-driven document intelligence (not just retrieval)
-✅ Query routing for efficiency gains
-✅ Compliance-focused design with traceability
-📈 Future Improvements
-Fine-tuned domain-specific embeddings
-Hybrid search (BM25 + vector search)
-Cloud deployment (AWS / Azure)
-Monitoring + evaluation metrics dashboard
-👤 About Me
-
-Anish Gupta
+- ✅ **Multi-document understanding within a single PDF**
+- ✅ **LLM-driven document intelligence (not just retrieval)**
+- ✅ **Query routing for efficiency gains**
+- ✅ **Compliance-focused design with traceability**
+📈 **Future Improvements**
+- Fine-tuned domain-specific embeddings
+- Hybrid search (BM25 + vector search)
+- Cloud deployment (AWS / Azure)
+- Monitoring + evaluation metrics dashboard
+👤 **About Me**
+**Anish Gupta**
 Data & AI Professional specializing in:
 
-Data Science & Machine Learning
-Public Sector & Regulatory Data
-AI-driven decision systems
-🤝 Let’s Connect
+- Data Science & Machine Learning
+- Public Sector & Regulatory Data
+- AI-driven 
+🤝 **Let’s Connect**
 
-If you're working on AI, data science, or document intelligence systems, feel free to connect or collaborate.
+If you're working on **AI, data science, or document intelligence systems,** feel free to connect or collaborate.
