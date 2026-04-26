@@ -126,6 +126,7 @@ Data & AI Professional specializing in:
 - Data Science & Machine Learning
 - Public Sector & Regulatory Data
 - AI-driven 
+
 🤝 **Let’s Connect**
 
 If you're working on **AI, data science, or document intelligence systems,** feel free to connect or collaborate.
