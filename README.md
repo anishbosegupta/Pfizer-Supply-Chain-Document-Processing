@@ -114,6 +114,7 @@ This is not a basic RAG implementation. It introduces:
 - Hybrid search (BM25 + vector search)
 - Cloud deployment (AWS / Azure)
 - Monitoring + evaluation metrics dashboard
+
 👤 **About Me**
 **Anish Gupta**
 Data & AI Professional specializing in:
