@@ -76,6 +76,7 @@ This is not just a prototype—it’s a **working system pipeline**.
 **🔹 Document Processing**
 - PyMuPDF (fitz) → text extraction
 - pytesseract → OCR fallback
+
 **🔹 Embeddings & Search**
 - Sentence-Transformers (MiniLM)
 - FAISS vector database
