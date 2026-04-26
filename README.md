@@ -116,7 +116,9 @@ This is not a basic RAG implementation. It introduces:
 - Monitoring + evaluation metrics dashboard
 
 👤 **About Me**
+
 **Anish Gupta**
+
 Data & AI Professional specializing in:
 
 - Data Science & Machine Learning
