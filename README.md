@@ -110,6 +110,7 @@ This is not a basic RAG implementation. It introduces:
 - ✅ **LLM-driven document intelligence (not just retrieval)**
 - ✅ **Query routing for efficiency gains**
 - ✅ **Compliance-focused design with traceability**
+
 📈 **Future Improvements**
 - Fine-tuned domain-specific embeddings
 - Hybrid search (BM25 + vector search)
