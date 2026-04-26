@@ -53,6 +53,7 @@ Task_Build_the_Full_RAG_UI.ipynb
 This is not just a prototype—it’s a **working system pipeline**.
 
 ## ⚙️ Technical Breakdown
+  
   **🔹 LLM (Local Deployment)**
 - **Mistral-7B-Instruct (GGUF via LlamaCPP)**
 - Used for:
@@ -60,21 +61,25 @@ This is not just a prototype—it’s a **working system pipeline**.
    - Boundary detection
    - Query routing
    - Answer generation
+
 **🔹 Retrieval-Augmented Generation (RAG)**
 - Combines:
   - Semantic retrieval (FAISS)
   - LLM reasoning
 - Improves accuracy + explainability
+
 **🔹 Query Routing (Key Differentiator)**
 - Routes queries to specific document types
 - Reduces noise and improves precision
 - Adds scalability vs traditional RAG systems
+
 **🔹 Document Processing**
 - PyMuPDF (fitz) → text extraction
 - pytesseract → OCR fallback
 **🔹 Embeddings & Search**
 - Sentence-Transformers (MiniLM)
 - FAISS vector database
+
 **🔹 Metadata & Traceability**
 
 Each chunk stores:
